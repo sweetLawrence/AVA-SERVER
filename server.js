@@ -16,6 +16,9 @@ const pocketbaseAPI = axios.create({
 app.get('/',(req,res)=>{
     res.json("Hellow");
 })
+app.get('/cleardb',(req,res)=>{
+    res.json("Hellow");
+})
 app.post('/messages', async (req, res) => {
     try {
 

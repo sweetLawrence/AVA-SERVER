@@ -39,7 +39,7 @@ app.post('/messages', async (req, res) => {
             const response = await result.response;
             let text = response.text();
             // text = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-            console.log(text);
+            // console.log(text);
 
             function isNameQuestion(message) {
                 return message.toLowerCase().includes("your name")

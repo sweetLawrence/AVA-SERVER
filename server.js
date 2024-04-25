@@ -46,7 +46,7 @@ app.post('/messages', async (req, res) => {
             }
 
             if (isNameQuestion(prompt)) {
-                text = "My Name is Ava. I was developed and am presently managed by Lawrence Tsungu, who serves as the CEO and Co-Founder of Pawtech Labs.";
+                text = "My Name is AVA";
             }
 
             await pocketbaseAPI.post('/records', {

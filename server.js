@@ -46,7 +46,7 @@ app.post('/messages', async (req, res) => {
             }
 
             if (isNameQuestion(prompt)) {
-                text = "My Name is AVA";
+                text = "My Name is AVA. My creator is Lawrence Tsungu.";
             }
 
             await pocketbaseAPI.post('/records', {
